@@ -9,10 +9,10 @@
 
     <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}">
 
-    @vite([
-        'resources/scss/app.scss',
-        'resources/js/app.js'
-    ])
+    @vite('resources/js/app.js')
+
+@livewireStyles
+
 </head>
 
 <body>
@@ -22,6 +22,8 @@
 {{ $slot }}
 
 <x-footer />
+
+@livewireScripts
 
 </body>
 
