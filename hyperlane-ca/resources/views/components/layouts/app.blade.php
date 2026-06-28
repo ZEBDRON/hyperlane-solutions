@@ -7,6 +7,8 @@
 
     <title>{{ $title ?? 'Hyperlane Solutions' }}</title>
 
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}">
+
     @vite([
         'resources/scss/app.scss',
         'resources/js/app.js'
