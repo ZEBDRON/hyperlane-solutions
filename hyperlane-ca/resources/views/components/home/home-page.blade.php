@@ -114,7 +114,7 @@
           <img src="{{ asset('assets/images/clients/skeena-gold-silver.png') }}" alt="Skeena Gold + Silver logo" />
         </figure>
         <figure class="client-logo">
-          <img src="{{ asset('assets/images/clients/galore-creek.png') }}" alt="Galore Creek Mining Corporation (GCMC) logo" />
+          <img src="{{ asset('assets/images/clients/galore-creek.jpg') }}" alt="Galore Creek Mining Corporation (GCMC) logo" />
         </figure>
       </div>
     </section>

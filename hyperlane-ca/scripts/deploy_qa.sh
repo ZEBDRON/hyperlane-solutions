@@ -20,6 +20,9 @@ PORT="65002"
 echo "Starting deployment..."
 
 if [ -f package.json ]; then
+    echo "Clean up old build..."
+    rm -rf ../public/build
+
     echo "Installing Node dependencies..."
     npm install
 
