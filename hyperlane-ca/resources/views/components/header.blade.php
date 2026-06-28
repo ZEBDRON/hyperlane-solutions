@@ -44,8 +44,8 @@
             @endif
 
             <li><a href="{{ route('careers') }}">Careers</a></li>
-            <li><a href="{{ url('shuttle/index.php') }}">Book Airport Shuttle</a></li>
-            <li><a href="{{ url('portal/index.php') }}">Client Portal</a></li>
+            <li><a href="{{ route('shuttle.booking') }}">Book Airport Shuttle</a></li>
+            <li><a href="{{ route('portal') }}">Client Portal</a></li>
         </ul>
     </nav>
 </header>

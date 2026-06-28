@@ -10,8 +10,8 @@
             <a href="{{ route('careers') }}">Careers</a>
             <a href="{{ route('home') }}#contact">Contact</a>
 
-            <a href="/shuttle">Book Airport Shuttle</a>
-            <a href="/portal">Client Portal</a>
+            <a href="{{route('shuttle.booking')}}">Book Airport Shuttle</a>
+            <a href="{{route('portal')}}">Client Portal</a>
         </nav>
     </div>
 </footer>
